@@ -78,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Web.config.Zongdev" />
+    <None Include="Web.config.Debug.Zongdev">
+      <DependentUpon>Web.config.Zongdev</DependentUpon>
+    </None>
+    <None Include="Web.config.Release.Zongdev">
+      <DependentUpon>Web.config.Zongdev</DependentUpon>
+    </None>
     <None Include="Web.config.chiu" />
     <None Include="Web.config.Debug.chiu">
       <DependentUpon>Web.config.chiu</DependentUpon>
